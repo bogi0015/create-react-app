@@ -1,0 +1,81 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "build": {
+      "name": "build",
+      "command": "npm run build"
+    },
+    "changelog": {
+      "name": "changelog",
+      "command": "npm run changelog"
+    },
+    "create-react-app": {
+      "name": "create-react-app",
+      "command": "npm run create-react-app"
+    },
+    "e2e": {
+      "name": "e2e",
+      "command": "npm run e2e"
+    },
+    "e2e:docker": {
+      "name": "e2e:docker",
+      "command": "npm run e2e:docker"
+    },
+    "postinstall": {
+      "name": "postinstall",
+      "command": "npm run postinstall"
+    },
+    "publish": {
+      "name": "publish",
+      "command": "npm run publish"
+    },
+    "start": {
+      "name": "start",
+      "command": "npm run start",
+      "runAtStart": true,
+      "preview": {
+        "port": 3000
+      }
+    },
+    "screencast": {
+      "name": "screencast",
+      "command": "npm run screencast"
+    },
+    "screencast:error": {
+      "name": "screencast:error",
+      "command": "npm run screencast:error"
+    },
+    "alex": {
+      "name": "alex",
+      "command": "npm run alex"
+    },
+    "test:integration": {
+      "name": "test:integration",
+      "command": "npm run test:integration"
+    },
+    "test": {
+      "name": "test",
+      "command": "npm run test"
+    },
+    "eslint": {
+      "name": "eslint",
+      "command": "npm run eslint"
+    },
+    "prettier": {
+      "name": "prettier",
+      "command": "npm run prettier"
+    },
+    "format": {
+      "name": "format",
+      "command": "npm run format"
+    }
+  }
+}
